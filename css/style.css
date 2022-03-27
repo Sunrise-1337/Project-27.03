@@ -33,3 +33,124 @@ max-width: 30%;
     flex-wrap: wrap;
 	margin: 0px -30px 0 -30px;
 }
+/* Основное */
+
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+
+button{
+    border: none;
+    outline: none;
+}
+
+body{
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1306px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* Вёрстка */
+
+/* Секция 1 */
+
+.section-2{
+    background-color: white;
+}
+
+.section-2__org{
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-2__element-wrap{
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.section-2__header{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+    text-align: left;
+}
+
+.section-2__para{
+    font-size: 14px;
+    color: black;
+    text-align: left;
+}
+
+.section-2__pic{
+    height: 70px;
+}
+
+/* Секция 2 */
+
+.section-3{
+    background-color: #f7f7f7;
+}
+
+.section-3__org{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding-top: 115px;
+    padding-bottom: 140px;
+}
+
+.section-3__line{
+    display: inline-block;
+    height: 3px;
+    width: 37px;
+    background-color: black;
+    position: relative;
+    top: 8px;
+}
+
+.section-3__topic{
+    display: flex;
+
+}
+
+.section-3__text{
+    max-width: 400px;
+}
+
+.section-3__topic-header{
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 27px;
+    text-transform: capitalize;
+}
+
+.section-3__topic-para{
+
+}
+
