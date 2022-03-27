@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 .section-2__org{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 55px;
     flex-wrap: wrap;
     padding-top: 100px;
@@ -95,12 +95,24 @@ h1, h2, h3, h4, h5, h6, p{
     width: 37px;
     background-color: black;
     position: relative;
-    top: 8px;
+    top: 7px;
 }
 
 .section-3__topic{
     display: flex;
+    gap: 20px;
+}
 
+.section-3__header{
+    font-weight: bold;
+    font-size: 36px;
+    color: black;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+
+.section-3__header--span{
+    color: #ffae00;
 }
 
 .section-3__text{
@@ -111,10 +123,14 @@ h1, h2, h3, h4, h5, h6, p{
     font-weight: bold;
     font-size: 18px;
     color: black;
-    margin-bottom: 27px;
+    margin-bottom: 17px;
     text-transform: capitalize;
 }
 
 .section-3__topic-para{
-
+    font-weight: bold;
+    font-size: 14px;
+    color: darkgray;
+    margin-bottom: 30px;
+    text-transform: capitalize;
 }
