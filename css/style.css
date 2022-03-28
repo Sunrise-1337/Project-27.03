@@ -69,6 +69,12 @@ body{
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.first-screen__text-container{
+  margin-top:255px;
+  max-width:500px;
+}
+
 .first-screen__text-container{
   margin-top:255px;
   max-width:500px;
@@ -107,6 +113,7 @@ body{
   padding-right:15px;
   margin:0 auto;
 }
+
 body{
   overflow: hidden;
 }
@@ -140,6 +147,11 @@ body{
 .header__nav{
   margin-right:-35px;
 }
+
+.header__nav{
+  margin-right:-35px;
+}
+
 .header__menu-item{
   font-size:14px;
   margin-right:35px;
@@ -149,11 +161,12 @@ body{
 .header__menu-item:hover{
   color:grey;
 }
-.header__menu-wrapper{margin-right:105px;}
+.header__menu-wrapper{
+  margin-right:105px;
+}
+
 .first-screen{
   background-color:rgb(241,241,241);
- 
- 
 }
 
 .first-screen__container{
@@ -184,12 +197,14 @@ body{
     margin-bottom: 17px;
     text-transform: capitalize;
 }
+
 .first-screen__text{
   margin-top:35px;
   font-size:14px;
   color:grey;
   
 }
+
 .first-screen__img{
   max-height: 620px;
 }
