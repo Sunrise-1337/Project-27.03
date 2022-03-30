@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Poppins";
+}
+
+.container {
+        max-width: 1306px;
+        margin: 0 auto;
+        padding: 0 15px;
+}
+
+@import "./components/basic/mixin.scss";
+@import "./components/basic/variables.scss";
+@import "./scss/fifth-screen.scss";
+@import "./scss/sixth-screen.scss";
+@import "./scss/footer.scss";
